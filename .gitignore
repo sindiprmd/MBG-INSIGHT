@@ -1,0 +1,30 @@
+
+# Python virtual environments
+**/.venv*/
+**/venv/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# JavaScript dependencies
+**/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+**/dist/
+**/build/
+
+
+# Model AI besar - simpan lokal, jangan unggah ke GitHub
+backend/model/**/*.safetensors
+backend/model/**/*.zip
+backend/model/**/*.bin
+backend/model/**/*.pt
+backend/model/**/*.pth
+backend/model/**/*.onnx
+
